@@ -1,4 +1,4 @@
-"""Exclusão de número iguais nas listas!"""
+"""Exclusão de número iguais em ambas as listas!"""
 """del  metodo utilizado para excluir itens de uma lista"""
 
 N1 = [1, 3, 5, 4, 10, 7, 13]
@@ -41,20 +41,18 @@ while l < len(N1) and x < len(N1):
         if choise == 0:
             x = 0
             l = 0
+        elif choise == 1:
+            print('Congratulations')
+            L.extend(N1)
+            L.extend(N2)
+
+            print('-' * 36)
+            print(L)
+            print('-' * 36)
         else:
-            if choise == 1:
-                print('Congratulations')
-            else:
-                break
+            print('Error! Try again!')
+            break
 
     if l == len(N2):
         x += 1
         l = 0
-
-
-L.extend(N1)
-L.extend(N2)
-
-print('-' * 36)
-print(L)
-print('-' * 36)
