@@ -1,4 +1,4 @@
-""".pop metodo utilizado para retornar o valor do elemento e excluilo da lista"""
+# .pop metodo utilizado para retornar o valor do elemento e excluilo da lista
 
 ultimo = 10
 fila = list(range(1, ultimo + 1))

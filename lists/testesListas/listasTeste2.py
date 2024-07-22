@@ -1,5 +1,5 @@
-"""Exclusão de número iguais em ambas as listas!"""
-"""del  metodo utilizado para excluir itens de uma lista"""
+# Exclusão de número iguais em ambas as listas!
+# del  metodo utilizado para excluir itens de uma lista
 
 N1 = [1, 3, 5, 4, 10, 7, 13]
 N2 = [2, 3, 8, 4, 10, 12, 14]

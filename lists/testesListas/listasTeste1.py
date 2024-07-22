@@ -1,4 +1,4 @@
-'''.extend metodo utilizado para inserir elementos de uma lista em outra lista!'''
+# .extend metodo utilizado para inserir elementos de uma lista em outra lista!
 
 N1 = []
 N2 = []

@@ -1,4 +1,4 @@
-#requests é um framework que possibilita a conecção com paginas web
+# requests é um framework que possibilita a conecção com paginas web
 
 import requests
 

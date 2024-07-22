@@ -1,4 +1,4 @@
-""".append() metodo utilizado para inserir elementos em uma lista!"""
+# .append() metodo utilizado para inserir elementos em uma lista!
 
 L = []
 

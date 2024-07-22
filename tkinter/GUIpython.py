@@ -1,4 +1,4 @@
-#tkinter é uma biblioteca que acompanha nativamente o python, muito utilizada para criação de interfaces e janelas
+# tkinter é uma biblioteca que acompanha nativamente o python, muito utilizada para criação de interfaces e janelas
 # https://www.pythontutorial.net/tkinter/tkinter-ttk/
 # https://docs.python.org/3/library/tkinter.html
 

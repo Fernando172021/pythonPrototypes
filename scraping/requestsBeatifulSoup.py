@@ -1,4 +1,4 @@
-#BeatifulSoup é um framework utilizado para extrair dados de uma pagina web
+# BeatifulSoup é um framework utilizado para extrair dados de uma pagina web
 
 import requests
 from bs4 import BeautifulSoup
