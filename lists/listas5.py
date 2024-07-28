@@ -12,15 +12,20 @@ while True:
     operacao = input('Operação (F A ou S): ')
 
     if operacao == 'A':
+
         if len(fila) > 0:
             atendido = fila.pop(0)
             print(f'Cliente {atendido} atendido!')
+
         else:
             print('Fila vazia! Ninguém para atender.')
+
     elif operacao == 'F':
         ultimo += 1 # incrementa um novo cliente a fila!
         fila.append(ultimo)
+
     elif operacao == 'S':
         break
+    
     else:
         print('Operação inválida! Digite apenas F, A ou S!')

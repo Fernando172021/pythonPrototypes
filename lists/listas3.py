@@ -7,6 +7,8 @@ while x < 5:
 
 while True:
     escolhido = int(input(f'Que posição voce quer imprimir? (digite 0 para sair): '))
+
     if escolhido == 0:
         break
+    
     print(f'Você escolheu o número: {numeros[escolhido - 1]}')

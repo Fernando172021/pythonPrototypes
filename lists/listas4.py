@@ -4,8 +4,10 @@ L = []
 
 while True:
     n1 = int(input('Digite um número (0 para sair): '))
+
     if n1 == 0:
         break
+
     L.append(n1)
 
 x = 0

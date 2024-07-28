@@ -14,20 +14,23 @@ print(N2)
 print('Segue Processamento...')
 
 while l < len(N1) and x < len(N1): 
-
     sum = len(N1)
     matrix = sum - 1
 
     if x < len(N1) and l < len(N2):
+
         if N1[x] == N2[l]:
             del N1[x]
             del N2[l]
+
         l += 1
         
     if x < len(N1) and l < len(N2):
+
         if N1[x] == N2[l]:
             del N1[x]
             del N2[l]
+
         l += 1
 
     print('-' * 36)
@@ -41,6 +44,7 @@ while l < len(N1) and x < len(N1):
         if choise == 0:
             x = 0
             l = 0
+
         elif choise == 1:
             print('Congratulations')
             L.extend(N1)
@@ -49,6 +53,7 @@ while l < len(N1) and x < len(N1):
             print('-' * 36)
             print(L)
             print('-' * 36)
+            
         else:
             print('Error! Try again!')
             break

@@ -6,11 +6,15 @@ L = []
 
 while True:
     n1 = int(input('Digite um número (0 para proceguir): '))
+
     if n1 == 0:
         break
+
     n2 = int(input('Digite outro número (0 para proceguir): '))
+
     if n2 == 0:
         break
+    
     N1.append(n1)
     N2.append(n2)
 
