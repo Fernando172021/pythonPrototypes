@@ -16,9 +16,6 @@ root.geometry('600x500+50+50')
 # Deixando as dimensções fixas
 root.resizable(False, False)
 
-# Definindo um icone para a pagina
-root.iconbitmap('./midias/favicon.ico')
-
 # widget
 message = tk.Label(root, text="Hello, World!")
 message.pack()

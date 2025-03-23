@@ -1,7 +1,7 @@
 # Pesquisa com FOR 2
 
 L = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(L)
+print(L[0])
 
 p = int(input('\nDigite um número para a pesquisa: '))
 
